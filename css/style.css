@@ -16,8 +16,6 @@ header{
  background-size: contain;
  position: relative;
  margin-bottom: 10px;
- 
- 
 }
 
 header img {
@@ -65,6 +63,54 @@ ul{
   margin-top: 20px;
 }
 
-thead tr{ 
-  width: 33%;
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th, td {
+  text-align: left;
+}
+
+.firstcolumn , .secondcolumn{
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+tr:nth-child(even){background-color: lightskyblue}
+
+th {
+  background-color:blue;
+  color: white;
+}
+
+.firstcolumn , .secondcolumn{
+  width: 25%;
+}
+
+footer{
+  margin-top: 20px;
+}
+
+.footerimg1{
+  background-image: url('../img/monitor.jpg');
+  height: 208px;
+  background-repeat: no-repeat;
+}
+
+.footerimg2{
+  background-image: url('../img/graph.jpg');
+  height: 208px;
+  background-repeat: no-repeat;
+}
+
+.footerimg1 p{
+  color: white;
+  padding: 10px;
+}
+
+.footerimg2 p{
+  color: white;
+  padding: 10px;
 }
