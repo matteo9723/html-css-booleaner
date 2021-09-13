@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
 }
+
 .container{
   width: 50%;
   margin: 0 auto;;
@@ -14,16 +15,15 @@ header{
  background-color: lightskyblue;
  background-image:url('../img/pattern.png');
  background-size: contain;
- position: relative;
  margin-bottom: 10px;
 }
 
 header img {
-  width: 20%;
-  position:absolute;
-  bottom:0;
-  left:0;
-  margin-bottom: 5px;
+  width: 150px;
+  margin-top: 30px;
+  margin-left: 25%;
+  
+
 }
 
 h4 , h5{
