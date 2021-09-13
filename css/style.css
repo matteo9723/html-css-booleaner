@@ -1,0 +1,70 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 50%;
+  margin: 0 auto;;
+}
+
+header{
+  height: 70px;
+ background-color: lightskyblue;
+ background-image:url('../img/pattern.png');
+ background-size: contain;
+ position: relative;
+ margin-bottom: 10px;
+ 
+ 
+}
+
+header img {
+  width: 20%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  margin-bottom: 5px;
+}
+
+h4 , h5{
+  color: gray;
+}
+
+h4 span {
+  color: lightseagreen;
+}
+
+section{
+  border: 1px solid black;
+  height: 250px;
+  width: 50%;
+  float: left;
+}
+
+.tim1{
+  background-image: url('../img/tim-1.jpg');
+  background-size: cover;
+}
+
+.tim2{
+  background-image: url('../img/tim-2.jpg');
+  background-size: cover;
+}
+
+p{
+  margin-top: 20px;
+}
+
+p span{
+  background-color: yellow;
+}
+
+ul{
+  margin-top: 20px;
+}
+
+thead tr{ 
+  width: 33%;
+}
